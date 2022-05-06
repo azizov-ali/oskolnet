@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    flex-wrap: wrap;
+}
+
+.head_list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap:26px;
+    flex-wrap: wrap;
+}
+
+.head_item{
+    display: flex;
+    text-align: center;
+
+}
+
+.text_item{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #263057;
+
+}
+.icon_tel{
+
+    margin:0 -15px 0 0;
+}
+
+.number{
+    font-family: 'Circe',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    color: #263057;
+}
+
+.clock{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.28em;
+    color: #263057;
+    opacity: 0.5;
+}
+
+.all-btn{
+    background: #6984F0;
+    border-radius: 30px;
+    padding: 9px 30px;
+    cursor:pointer;
+}
+
+.all-btn:hover{
+    background: #263057;
+}
+
+.btn{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.info{
+    padding: 64px 0;
+    background: darkseagreen;
+}
+.info-title{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #263057;
+}
+.info-img-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 45px;
+    flex-wrap: wrap;
+}
+
+.car{
+    margin: 37px 0 58px 0;
+}
+
+.info-text{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #263057;
+}
+
+.btn-center{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.news{
+    /*background: #F1F2F4; оригинал */
+    background: silver; /* временный цвет */
+    padding: 80px 0;
+}
+
+.news-title{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #263057;
+    margin-bottom: 27px;
+}
+
+.news-card{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background: #FFFFFF;
+    padding: 30px 25px;
+    border-radius: 15px;
+
+}
+
+.card-text{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #263057;
+    margin: 25px 0 15px;
+}
+
+.news-info{
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #263057;
+    margin-bottom: 30px;
+
+}
+
+.btn-more{
+    background: none;
+}
+
+.more-text{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #6984F0;
+}
+
+.more-text:hover{
+    color: #1D1444;
+}
+
+.more-icon:hover{
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn-news{
+    margin-top: 40px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.slider {
+    background: #1d203e;
+    padding: 40px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    display: none !important;
+}
+
+.slider-img {
+    margin-top: -17px;
+}
+
+.mySwiper {
+    border-radius: 20px;
+}
+
+.slider-text {
+    background: orange;
+    position: absolute;
+    top: 0;
+}
